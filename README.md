@@ -3,6 +3,14 @@
 The goal of the following assignment is to write a simple ToDo app. The first part will consist only
 on writing backend, then we’ll try to create simple single page app for it.
 
+### Note
+Clone this repository to start working on the task. Commit often :)
+
+## Run instructions
+With docker installed on your machine you should just simply run `./run.sh` and everything should
+setup automatically. Frontend is available under `http://localhost:3000` and backend under
+`http://localhost:3000/api/`
+
 ## Part 1
 Using Flask, Python and MongoDb write a simple backend that will allow user to:
 - Add new To Do item
@@ -30,4 +38,7 @@ tasks.
 Backend should be able to return only tasks for a specific label defined as a query parameter.
 4. Add ability to register, login in the system. User should be able to add and see only his tasks.
 All other functionality should stay intact.
-5. Add ability to login using Facebook identity (OAuth).
+5. Add ability to login using Facebook identity (OAuth).i
+
+
+Happy Coding :)
