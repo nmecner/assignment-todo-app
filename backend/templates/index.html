@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo App</title>
+</head>
+<body>
+<h1>To dos:</h1>
+<ul>
+{% for todo in todos %}
+    <li>{{todo.body}}</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
